@@ -12,6 +12,8 @@ def checkio(time_string):
              str(bin(int(hours[1])))[2:].zfill(4)
     m1, m2 = str(bin(int(min[0])))[2:].zfill(3), str(bin(int(min[1])))[2:].zfill(4)
     s1, s2 = str(bin(int(sec[0])))[2:].zfill(3), str(bin(int(sec[1])))[2:].zfill(4)
+    # this is still a little hacky since I'm having to manually enter the .zfill
+    # quantities; should be improved.
 
     # # now convert binary into Morse Code.
     # # 0=. and 1=-
