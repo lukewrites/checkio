@@ -16,8 +16,8 @@ def checkio(time_string):
     # # now convert binary into Morse Code.
     # # 0=. and 1=-
     final = h1 + " " + h2 + ' : ' + m1 + ' ' + m2 + ' : ' + s1 + ' ' + s2
-    final = final.replace('0', '.')
-    final = final.replace('1', '-')
+    final = final.replace('0', '.').replace('1', '-')
+    # i didn't know you can do a double method call. that's awesome.
 
     #return the solution
     return final
